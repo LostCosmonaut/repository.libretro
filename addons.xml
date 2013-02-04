@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="gameclient.fceu"
+       version="1.0.0"
+       name="FCEU"
+       provider-name="RetroArch project">
+  <extension point="xbmc.gameclient"
+             library_linux="libretro-git-fceu.so"
+             library_osx=""
+             library_wingl="libretro-git-fceu-x86.dll"
+             library_windx="libretro-git-fceu-x86.dll">
+    <system name="NES"/>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description>FCEU is an open source Nintendo Entertainment System emulator.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="gameclient.gambatte"
+       version="1.0.0"
+       name="Gambatte"
+       provider-name="RetroArch project">
+  <extension point="xbmc.gameclient"
+             library_linux="libretro-git-gambatte.so"
+             library_osx=""
+             library_wingl="libretro-git-gambatte-x86.dll"
+             library_windx="libretro-git-gambatte-x86.dll">
+    <system name="GB,GBC,GBA"/>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description>Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color and Game Boy Advance emulator written in C++. It is based on hundreds of corner case hardware tests, as well as previous documentation and reverse engineering efforts.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="gameclient.snes9x.next"
+       version="1.0.0"
+       name="SNES9x Next"
+       provider-name="RetroArch project">
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+  <extension point="xbmc.gameclient"
+             library_linux="libretro-git-snes9x-next.so"
+             library_osx=""
+             library_wingl="libretro-git-snes9x-next-x86.dll"
+             library_windx="libretro-git-snes9x-next-x86.dll">
+    <system name="SNES"/>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SNES9x Next emulator</summary>
+    <description>SNES9x Next is based on SNES9x, but has been heavily modified/speed hacked to achieve better speed.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.libretro" name="Libretro-Emulators" version="1.0.0" provider-name="garbear">
+    <extension point="xbmc.addon.repository" name="Libretro Emulators">
+        <info compressed="false">https://raw.github.com/garbear/repository.libretro/master/addons.xml</info>
+        <checksum>https://raw.github.com/garbear/repository.libretro/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/garbear/repository.libretro/master/release/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Libretro Emulators</summary>
+        <description>This repository contains emulators for the RetroPlayer branch of XBMC.</description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
