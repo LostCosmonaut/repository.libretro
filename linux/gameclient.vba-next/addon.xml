@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="gameclient.vba-next"
+        name="VBA-Next"
+        version="1.0.1"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux="libretro-vba.so"
+            library_osx=""
+            library_windx=""
+            library_wingl="">
+        <platforms>Game Boy Advance</platforms>
+        <extensions>gba|zip</extensions>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">VBA-Next</summary>
+        <description>VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the capatibility and features of the emulator.[CR][CR]Source: https://github.com/libretro/vba-next</description>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+        <platform>linux</platform>
+    </extension>
+</addon>

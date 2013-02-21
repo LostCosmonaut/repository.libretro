@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="gameclient.bnes.x86"
+        name="bNES (32-bit)"
+        version="1.0.1"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux="libretro-bnes.so"
+            library_osx=""
+            library_windx=""
+            library_wingl="">
+        <platforms>NES</platforms>
+        <extensions>nes</extensions>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">bNES</summary>
+        <description>libretro port of bNES, a NES emulator.[CR][CR]Authors: byuu, Ryphecha.[CR][CR]Source: https://github.com/libretro/bnes-libretro</description>
+        <platform>linux</platform>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>

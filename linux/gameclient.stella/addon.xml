@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="gameclient.stella"
+        name="Stella"
+        version="1.0.1"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux="libretro-stella.so"
+            library_osx=""
+            library_windx=""
+            library_wingl="">
+        <platforms>Atari 2600</platforms>
+        <extensions>a26|bin</extensions>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Stella</summary>
+        <description>Stella is a multi-platform Atari 2600 VCS emulator. The Atari 2600 Video Computer System (VCS), introduced in 1977, was the most popular home video game system of the early 1980's. Now you can enjoy all of your favorite Atari 2600 games on your PC thanks to Stella![CR][CR]Stella was originally developed for Linux by Bradford W. Mott, and is currently maintained by Stephen Anthony.[CR][CR]Source: https://github.com/libretro/stella-libretro</description>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+        <platform>linux</platform>
+    </extension>
+</addon>

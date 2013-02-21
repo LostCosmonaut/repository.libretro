@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="gameclient.quicknes"
+        name="QuickNES"
+        version="1.0.0"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux="libretro-quicknes.so"
+            library_osx=""
+            library_windx=""
+            library_wingl="">
+        <platforms>NES</platforms>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">QuickNES</summary>
+        <description>The QuickNES core library, originally by Shay Green, heavily modified. QuickNES is a newer emulator that seems to have good compatibility.[CR][CR]Source: https://github.com/libretro/QuickNES_Core</description>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+        <platform>linux</platform>
+    </extension>
+</addon>

@@ -1,0 +1,8 @@
+[B]2013-02-19[/B] Version [B]1.0.2[/B]
+. Renamed add-on from Meteor to Meteor GBA
+
+[B]2013-02-18[/B] Version [B]1.0.1[/B]
+. Added data on supported file extensions
+
+[B]2013-02-04[/B] Version [B]1.0.0[/B]
+. Initial release. Meteor v1.3.0, https://github.com/libretro/meteor-libretro @ 2013-01-05

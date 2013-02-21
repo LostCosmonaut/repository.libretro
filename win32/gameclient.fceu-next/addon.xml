@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="gameclient.fceu-next"
+        name="FCEU-Next"
+        version="1.0.1"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux=""
+            library_osx=""
+            library_windx="libretro-git-fceu-x86.dll"
+            library_wingl="libretro-git-fceu-x86.dll">
+        <platforms>NES</platforms>
+        <extensions>fds|zip|nes|unif</extensions>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">FCEU-Next</summary>
+        <description>Port of FCEUmm / FCEUX to Libretro. FCEUX is a Nintendo Entertainment System (NES), Famicom, and Famicom Disk System (FDS) emulator. FCEUX is an evolution of the original FCE Ultra emulator. Over time FCE Ultra had separated into many distinct branches. The concept behind FCEUX is to merge elements from FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE, and FCEU-mm into a single branch of FCEU.[CR][CR]Authors: byuu, Ryphecha.[CR][CR]Source: https://github.com/libretro/fceu-next</description>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+        <platform>windx wingl</platform>
+    </extension>
+</addon>

@@ -1,0 +1,5 @@
+[B]2013-02-18[/B] Version [B]1.0.1[/B]
+. Added data on supported file extensions
+
+[B]2013-02-16[/B] Version [B]1.0.0[/B]
+. Initial release. FBA v0.2.97.28, https://github.com/libretro/fba-libretro @ 2013-01-05

@@ -1,0 +1,5 @@
+[B]2013-02-18[/B] Version [B]1.0.1[/B]
+. Added data on supported file extensions
+
+[B]2013-02-16[/B] Version [B]1.0.0[/B]
+. Initial release: GX version 1.6.0 (2011-07-08), https://github.com/libretro/Genesis-Plus-GX @ 0477810 (2013-02-02)

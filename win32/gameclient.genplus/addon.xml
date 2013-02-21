@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="gameclient.genplus"
+        name="Genesis Plus GX"
+        version="1.0.1"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux=""
+            library_osx=""
+            library_windx="libretro-git-genplus-x86.dll"
+            library_wingl="libretro-git-genplus-x86.dll">
+        <platforms>Genesis|Game Gear|SEGA Master System</platforms>
+        <extensions>md|smd|bin|cue|gen|zip|iso|sms|gg|sg</extensions>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+        <summary lang="en">Genesis Plus GX</summary>
+        <description>An enhanced port of Genesis Plus to the libretro API. Support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive &amp; Mega CD hardware.[CR][CR]Enhancements backported by twinaphex from the GX version (Gamecube/Wii port), maintained by Eke-Eke.[CR][CR]Source: https://github.com/libretro/Genesis-Plus-GX</description>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+        <platform>windx wingl</platform>
+    </extension>
+</addon>
