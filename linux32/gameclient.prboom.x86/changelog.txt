@@ -1,2 +1,5 @@
+[B]2013-02-26[/B] Version [B]1.0.1[/B]
+. Added supported extensions (.wad|.iwad) to addon.xml
+
 [B]2013-02-16[/B] Version [B]1.0.0[/B]
 . Initial release: PrBoom 2.5.0, https://github.com/libretro/libretro-prboom @ 311ae96 (2013-02-02)

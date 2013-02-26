@@ -1,2 +1,5 @@
+[B]2013-02-26[/B] Version [B]1.0.1[/B]
+. Added supported extensions (.nds) to addon.xml
+
 [B]2013-02-16[/B] Version [B]1.0.0[/B]
 . Initial release: DeSmuME 0.9.9, https://github.com/libretro/desmume-libretro @ 088bd18 (2012-11-23)

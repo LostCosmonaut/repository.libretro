@@ -102,7 +102,7 @@
 
 <addon id="gameclient.desmume"
         name="DeSmuME"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -114,6 +114,7 @@
             library_windx=""
             library_wingl="">
         <platforms>Nintendo DS</platforms>
+        <extensions>nds</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">DeSmuME</summary>
@@ -326,10 +327,10 @@
 
 <addon id="gameclient.nx"
         name="NXEngine"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
-        <import addon="xbmc.libretro" version="1.0.0"/>
+        <import addon="xbmc.libretro" version="1.0.1"/>
     </requires>
     <extension point="xbmc.gameclient"
             library_android=""
@@ -338,6 +339,7 @@
             library_windx=""
             library_wingl="">
         <platforms></platforms>
+        <extensions>bin|exe|zip</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">NXEngine</summary>
@@ -350,7 +352,7 @@
 
 <addon id="gameclient.prboom"
         name="PrBoom"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -362,6 +364,7 @@
             library_windx=""
             library_wingl="">
         <platforms></platforms>
+        <extensions>wad|iwad</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">PrBoom</summary>
@@ -374,7 +377,7 @@
 
 <addon id="gameclient.quicknes"
         name="QuickNES"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -386,6 +389,7 @@
             library_windx=""
             library_wingl="">
         <platforms>NES</platforms>
+        <extensions>nes</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">QuickNES</summary>

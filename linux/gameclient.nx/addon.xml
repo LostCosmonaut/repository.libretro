@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.nx"
         name="NXEngine"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
-        <import addon="xbmc.libretro" version="1.0.0"/>
+        <import addon="xbmc.libretro" version="1.0.1"/>
     </requires>
     <extension point="xbmc.gameclient"
             library_android=""
@@ -13,6 +13,7 @@
             library_windx=""
             library_wingl="">
         <platforms></platforms>
+        <extensions>bin|exe|zip</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">NXEngine</summary>

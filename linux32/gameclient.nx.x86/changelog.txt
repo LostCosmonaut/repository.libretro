@@ -1,2 +1,5 @@
+[B]2013-02-26[/B] Version [B]1.0.1[/B]
+. Added supported extensions (.bin|.exe|.zip) to addon.xml
+
 [B]2013-02-16[/B] Version [B]1.0.0[/B]
 . Initial release: NXEngine 1.0.0.4, https://github.com/libretro/nxengine-libretro @ 6e0e782 (2013-02-04)
