@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.bnes"
         name="bNES"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -21,5 +21,6 @@
         <platform>windx wingl</platform>
         <noicon>true</noicon>
         <nofanart>true</nofanart>
+        <broken>Poor performance and reported crashes. Use FCEU-Next.</broken>
     </extension>
 </addon>
