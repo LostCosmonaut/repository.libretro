@@ -279,7 +279,7 @@
 
 <addon id="gameclient.meteor"
         name="Meteor GBA"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -288,8 +288,8 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-meteor-x86.dll"
-            library_wingl="libretro-git-meteor-x86.dll">
+            library_windx="libretro-git-meteor.dll"
+            library_wingl="libretro-git-meteor.dll">
         <platforms>Game Boy Advance</platforms>
         <extensions>gba</extensions>
     </extension>
