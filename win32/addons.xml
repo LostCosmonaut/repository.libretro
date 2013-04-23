@@ -332,7 +332,7 @@ Source: https://github.com/libretro/nestopia</description>
 
 <addon id="gameclient.quicknes"
         name="QuickNES"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -341,8 +341,8 @@ Source: https://github.com/libretro/nestopia</description>
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-quicknes-x86.dll"
-            library_wingl="libretro-git-quicknes-x86.dll">
+            library_windx="libretro-git-quicknes.dll"
+            library_wingl="libretro-git-quicknes.dll">
         <platforms>NES</platforms>
         <extensions>nes</extensions>
     </extension>
