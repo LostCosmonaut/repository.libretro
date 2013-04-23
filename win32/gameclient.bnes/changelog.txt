@@ -1,3 +1,6 @@
+[B]2013-04-02[/B] Version [B]1.0.2[/B]
+. Uploaded re-compiled version, b735dca @ 2012-04-15 (previous date was access time, not commit time)
+
 [B]2013-02-18[/B] Version [B]1.0.1[/B]
 . Added data on supported file extensions
 
