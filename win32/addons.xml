@@ -357,7 +357,7 @@ Source: https://github.com/libretro/nestopia</description>
 
 <addon id="gameclient.snes9x"
         name="Snes9x"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -366,8 +366,8 @@ Source: https://github.com/libretro/nestopia</description>
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-snes9x-x86.dll"
-            library_wingl="libretro-git-snes9x-x86.dll">
+            library_windx="libretro-git-snes9x.dll"
+            library_wingl="libretro-git-snes9x.dll">
         <platforms>SNES</platforms>
         <extensions>smc|sfc|zip|gz|swc|fig|jma</extensions>
     </extension>
