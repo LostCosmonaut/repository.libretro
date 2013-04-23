@@ -433,7 +433,7 @@ Source: https://github.com/libretro/nestopia</description>
 
 <addon id="gameclient.vba-next"
         name="VBA-Next"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -442,8 +442,8 @@ Source: https://github.com/libretro/nestopia</description>
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-vba-x86.dll"
-            library_wingl="libretro-git-vba-x86.dll">
+            library_windx="libretro-git-vba.dll"
+            library_wingl="libretro-git-vba.dll">
         <platforms>Game Boy Advance</platforms>
         <extensions>gba|zip</extensions>
     </extension>
