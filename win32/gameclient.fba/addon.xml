@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.fba"
         name="Final Burn Alpha"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -10,9 +10,9 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-fba-x86.dll"
-            library_wingl="libretro-git-fba-x86.dll">
-        <platforms>Neo Geo</platforms>
+            library_windx="libretro-git-fba.dll"
+            library_wingl="libretro-git-fba.dll">
+        <platforms></platforms>
         <extensions>iso|zip</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
