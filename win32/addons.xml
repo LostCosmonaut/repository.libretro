@@ -153,7 +153,7 @@
 
 <addon id="gameclient.gambatte"
         name="Gambatte"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -162,8 +162,8 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-gambatte-x86.dll"
-            library_wingl="libretro-git-gambatte-x86.dll">
+            library_windx="libretro-git-gambatte.dll"
+            library_wingl="libretro-git-gambatte.dll">
         <platforms>Game Boy|Game Boy Color</platforms>
         <extensions>gb|gbc|dmg|zip</extensions>
     </extension>
