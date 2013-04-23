@@ -204,7 +204,7 @@
 
 <addon id="gameclient.mednafen.pce.fast"
         name="Mednafen PC Engine (Fast)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -213,8 +213,8 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-0924-mednafen-pce-fast-x86.dll"
-            library_wingl="libretro-0924-mednafen-pce-fast-x86.dll">
+            library_windx="libretro-0928-mednafen-pce-fast.dll"
+            library_wingl="libretro-0928-mednafen-pce-fast.dll">
         <platforms>TurboGrafx-16|TurboGrafx CD</platforms>
         <extensions>pce|cue|zip</extensions>
     </extension>
@@ -229,7 +229,7 @@
 
 <addon id="gameclient.mednafen.psx"
         name="Mednafen PSX"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -238,8 +238,8 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-0926-mednafen-psx-x86.dll"
-            library_wingl="libretro-0926-mednafen-psx-x86.dll">
+            library_windx="libretro-0928-mednafen-psx.dll"
+            library_wingl="libretro-0928-mednafen-psx.dll">
         <platforms>Playstation</platforms>
         <extensions>cue|toc</extensions>
     </extension>
@@ -254,7 +254,7 @@
 
 <addon id="gameclient.mednafen.wswan"
         name="Mednafen WonderSwan"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -263,8 +263,8 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-0922-mednafen-wswan-x86.dll"
-            library_wingl="libretro-0922-mednafen-wswan-x86.dll">
+            library_windx="libretro-0928-mednafen-wswan.dll"
+            library_wingl="libretro-0928-mednafen-wswan.dll">
         <platforms>WonderSwan|WonderSwan Color</platforms>
         <extensions>ws|wsc|zip</extensions>
     </extension>
