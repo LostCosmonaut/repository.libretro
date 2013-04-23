@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.bsnes.balanced"
         name="bSNES (Balanced)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -9,15 +9,14 @@
     <extension point="xbmc.gameclient"
             library_linux=""
             library_osx=""
-            library_windx="libretro-089-bsnes-compat-x86.dll"
-            library_wingl="libretro-089-bsnes-compat-x86.dll">
+            library_windx="libretro-092-bsnes-balanced.dll"
+            library_wingl="libretro-092-bsnes-balanced.dll">
         <platforms>SNES</platforms>
         <extensions>sfc|smc</extensions>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">bSNES (Balanced profile)</summary>
         <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator.[CR][CR]libsnes/bsnes author: byuu[CR][CR]Porters: Ver Greeneyes, Themaister[CR][CR]Source: http://gitorious.org/bsnes/bsnes</description>
-        <noicon>true</noicon>
         <nofanart>true</nofanart>
         <platform>windx wingl</platform>
         <!--<broken>Crashes on startup, single-frame audio, faulty VFS support</broken>-->
