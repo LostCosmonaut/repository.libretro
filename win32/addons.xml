@@ -302,6 +302,34 @@
     </extension>
 </addon>
 
+<addon id="gameclient.nestopia"
+        name="Nestopia"
+        version="1.44.0"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux=""
+            library_osx=""
+            library_windx="libretro-144-nestopia.dll"
+            library_wingl="libretro-144-nestopia.dll">
+        <platforms>NES</platforms>
+        <extensions>nes|zip|fds</extensions>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Nestopia</summary>
+        <description>Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals. The hardware is emulated at cycle-by-cycle granularity, ensuring full support for software that does mid-scanline and other timing trickery.
+
+Supported files: .nes, .fds, .zip
+
+Source: https://github.com/libretro/nestopia</description>
+        <nofanart>true</nofanart>
+        <platform>windx wingl</platform>
+    </extension>
+</addon>
+
 <addon id="gameclient.quicknes"
         name="QuickNES"
         version="1.0.2"
