@@ -128,7 +128,7 @@
 
 <addon id="gameclient.fceu-next"
         name="FCEU-Next"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -137,8 +137,8 @@
             library_android=""
             library_linux=""
             library_osx=""
-            library_windx="libretro-git-fceu-x86.dll"
-            library_wingl="libretro-git-fceu-x86.dll">
+            library_windx="libretro-git-fceu.dll"
+            library_wingl="libretro-git-fceu.dll">
         <platforms>NES</platforms>
         <extensions>fds|zip|nes|unif</extensions>
     </extension>
