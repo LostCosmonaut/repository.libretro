@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.vba-next.x86"
         name="VBA-Next (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -17,8 +17,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">VBA-Next</summary>
-        <description>VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the capatibility and features of the emulator.[CR][CR]Source: https://github.com/libretro/vba-next</description>
-        <noicon>true</noicon>
+        <description>VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the capatibility and features of the emulator.
+
+Supported files: .gba, .zip
+
+Source: https://github.com/libretro/vba-next</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>

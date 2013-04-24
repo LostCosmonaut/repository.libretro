@@ -1,3 +1,6 @@
+[B]2013-04-24[/B] Version [B]1.0.2[/B]
+. Upgraded to 35e9a99 @ 2013-04-17
+
 [B]2013-02-18[/B] Version [B]1.0.1[/B]
 . Added data on supported file extensions
 
