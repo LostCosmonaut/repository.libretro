@@ -420,8 +420,11 @@ Source: https://github.com/libretro/Genesis-Plus-GX</description>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">NXEngine</summary>
-        <description>NXEngine is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story).[CR][CR]Original author: Caitlin Shaw (rogueeve)[CR][CR]Source: https://github.com/libretro/nxengine-libretro</description>
-        <noicon>true</noicon>
+        <description>NXEngine is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story).
+
+Supported files: .bin, .exe, .zip
+
+Source: https://github.com/libretro/nxengine-libretro</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
