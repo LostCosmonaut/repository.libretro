@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.mame078.x86"
         name="MAME 0.78 (32-bit)"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
     </requires>
     <extension point="xbmc.gameclient"
             library_android=""
-            library_linux="libretro-mame078.so"
+            library_linux="libretro-mame.so"
             library_osx=""
             library_windx=""
             library_wingl="">
@@ -17,9 +17,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">MAME 0.78</summary>
-        <description>This is a proof of concept build based on MAME 0.78.[CR][CR]MAME stands for [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. When used in conjunction with images of the original arcade game's ROM and disk data, MAME attempts to reproduce that game as faithfully as possible on a more modern general-purpose computer. MAME can currently emulate several thousand different classic arcade video games from the late 1970s through the modern era.[CR][CR]Source: https://github.com/libretro/mame078-libretro</description>
-        <platform>linux</platform>
-        <noicon>true</noicon>
+        <description>This is a proof of concept build based on MAME 0.78. MAME stands for [B]M[/B]ultiple [B]A[/B]rcade [B]M[/B]achine [B]E[/B]mulator. MAME can currently emulate several thousand different classic arcade video games from the late 1970s through the modern era.
+
+Supported files: .zip
+
+Source: https://github.com/libretro/mame078-libretro</description>
         <nofanart>true</nofanart>
+        <platform>linux</platform>
     </extension>
 </addon>
