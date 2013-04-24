@@ -325,8 +325,11 @@ Source: https://github.com/libretro/mednafen-libretro</description>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Mednafen WonderSwan</summary>
-        <description>Mednafen is a portable multi-system emulator. This is port of the Mednafen WonderSwan core to the libretro API.[CR][CR]Mednafen's WonderSwan (Color) emulation is based off of Cygne. WSR (WonderSwan sound rip format) playback is supported.[CR][CR]Source: https://github.com/libretro/mednafen-libretro</description>
-        <noicon>true</noicon>
+        <description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen WonderSwan core to the libretro API. Mednafen's WonderSwan (Color) emulation is based off of Cygne.
+
+Supported files: .ws, .wsc, .zip
+
+Source: https://github.com/libretro/mednafen-libretro</description>
         <nofanart>true</nofanart>
         <platform>windx wingl</platform>
     </extension>
