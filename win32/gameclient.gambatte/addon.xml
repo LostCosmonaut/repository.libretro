@@ -23,7 +23,6 @@ Supported files: .gb, .gbc, .dmg, .zip
 
 Source: https://github.com/libretro/gambatte-libretro</description>
         <disclaimer>Game Boy and Game Boy Color are registered trademarks of Nintendo of America, Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.</disclaimer>
-        <noicon>true</noicon>
         <nofanart>true</nofanart>
         <platform>windx wingl</platform>
     </extension>
