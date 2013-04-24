@@ -17,9 +17,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Final Burn Alpha</summary>
-        <description>Final Burn Alpha is an emulator of arcade games. Currently, FB Alpha supports games on Capcom CPS-1 and CPS-2 hardware, SNK Neo-Geo hardware, Toaplan hardware, Cave hardware, and various games on miscellaneous hardware. Recent releases have started to add back in Sega System 16 emulation. FB Alpha is an open-source project and it is programmed by a group of people known as the FBA Team. Over the years this has comprised of Barry Harris, Jan_Klaassen, KEV, LoopMaster, Mike Haggar, Hyper Yagami and Ayeye. FB Alpha is based on the original FinalBurn by Dave.[CR][CR]Source: https://github.com/libretro/fba-libretro</description>
+        <description>Final Burn Alpha is an emulator of arcade games. Currently, FB Alpha supports games on Capcom CPS-1 and CPS-2 hardware, SNK Neo-Geo hardware, Toaplan hardware, Cave hardware, Sega System 16, and various games on miscellaneous hardware. FB Alpha is based on the original FinalBurn.
+
+Supported files: .iso, .zip
+
+Source: https://github.com/libretro/fba-libretro</description>
         <disclaimer>The authors of FB Alpha don't guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders.</disclaimer>
-        <noicon>true</noicon>
         <nofanart>true</nofanart>
         <platform>windx wingl</platform>
     </extension>
