@@ -17,8 +17,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Snes9x-Next</summary>
-        <description>Snes9x-Next is based on Snes9x, but has been heavily modified/speed-hacked to achieve better speed.[CR][CR]Source: https://github.com/libretro/snes9x-next</description>
-        <noicon>true</noicon>
+        <description>Snes9x-Next is based on Snes9x, but has been heavily modified/speed-hacked to achieve better speed.
+
+Supported files: .smc, .fig, .sfc, .gd3, .gd7, .dx2, .bsx, .swc, .zip
+
+Source: https://github.com/libretro/snes9x-next</description>
         <nofanart>true</nofanart>
         <platform>windx wingl</platform>
     </extension>

@@ -28,7 +28,7 @@
 
 <addon id="gameclient.bsnes.accuracy"
         name="bSNES (Accuracy)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -44,8 +44,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">bSNES (Accuracy profile)</summary>
-        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator.[CR][CR]libsnes/bsnes author: byuu[CR][CR]Porters: Ver Greeneyes, Themaister[CR][CR]Source: http://gitorious.org/bsnes/bsnes</description>
-        <noicon>true</noicon>
+        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Source: http://gitorious.org/bsnes/bsnes</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
@@ -53,7 +56,7 @@
 
 <addon id="gameclient.bsnes.balanced"
         name="bSNES (Balanced)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -69,8 +72,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">bSNES (Balanced profile)</summary>
-        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator.[CR][CR]libsnes/bsnes author: byuu[CR][CR]Porters: Ver Greeneyes, Themaister[CR][CR]Source: http://gitorious.org/bsnes/bsnes</description>
-        <noicon>true</noicon>
+        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Source: http://gitorious.org/bsnes/bsnes</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
@@ -78,7 +84,7 @@
 
 <addon id="gameclient.bsnes.performance"
         name="bSNES (Performance)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -94,8 +100,11 @@
     </extension>
         <extension point="xbmc.addon.metadata">
         <summary lang="en">bSNES (Performance profile)</summary>
-        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator.[CR][CR]libsnes/bsnes author: byuu[CR][CR]Porters: Ver Greeneyes, Themaister[CR][CR]Source: http://gitorious.org/bsnes/bsnes</description>
-        <noicon>true</noicon>
+        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Source: http://gitorious.org/bsnes/bsnes</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
@@ -404,7 +413,7 @@
 
 <addon id="gameclient.snes9x"
         name="Snes9x"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -420,9 +429,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Snes9x</summary>
-        <description>Snes9x is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. It basically allows you to play most games designed for the SNES and Super Famicom Nintendo game systems on your PC or Workstation; which includes some real gems that were only ever released in Japan.[CR][CR]Snes9x is the result of well over three years worth of part-time hacking, coding, recoding, debugging, divorce, etc. (just kidding about the divorce bit). Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports.[CR][CR]Source: https://github.com/snes9xgit/snes9x</description>
+        <description>Snes9x is a portable, freeware SNES and Super Famicom emulator. Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports.
+
+Supported files: .smc, .sfc, .swc, .fig, .jma, .zip, .gz
+
+Source: https://github.com/snes9xgit/snes9x</description>
         <disclaimer>The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information.</disclaimer>
-        <noicon>true</noicon>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
@@ -430,7 +442,7 @@
 
 <addon id="gameclient.snes9x-next"
         name="Snes9x-Next"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -446,8 +458,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Snes9x-Next</summary>
-        <description>Snes9x-Next is based on Snes9x, but has been heavily modified/speed-hacked to achieve better speed.[CR][CR]Source: https://github.com/libretro/snes9x-next</description>
-        <noicon>true</noicon>
+        <description>Snes9x-Next is based on Snes9x, but has been heavily modified/speed-hacked to achieve better speed.
+
+Supported files: .smc, .fig, .sfc, .gd3, .gd7, .dx2, .bsx, .swc, .zip
+
+Source: https://github.com/libretro/snes9x-next</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>

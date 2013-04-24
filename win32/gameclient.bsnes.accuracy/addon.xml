@@ -17,7 +17,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">bSNES (Accuracy profile)</summary>
-        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator.[CR][CR]libsnes/bsnes author: byuu[CR][CR]Porters: Ver Greeneyes, Themaister[CR][CR]Source: http://gitorious.org/bsnes/bsnes</description>
+        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Source: http://gitorious.org/bsnes/bsnes</description>
         <nofanart>true</nofanart>
         <platform>windx wingl</platform>
         <!--<broken>Crashes on startup, single-frame audio, faulty VFS support</broken>-->

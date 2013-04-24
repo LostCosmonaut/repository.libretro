@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.bsnes.balanced"
         name="bSNES (Balanced)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -17,8 +17,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">bSNES (Balanced profile)</summary>
-        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator.[CR][CR]libsnes/bsnes author: byuu[CR][CR]Porters: Ver Greeneyes, Themaister[CR][CR]Source: http://gitorious.org/bsnes/bsnes</description>
-        <noicon>true</noicon>
+        <description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Source: http://gitorious.org/bsnes/bsnes</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
