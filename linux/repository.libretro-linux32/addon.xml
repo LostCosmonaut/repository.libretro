@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.libretro-linux"
+<addon id="repository.libretro-linux32"
         name="Libretro Emulators (32-bit)"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
