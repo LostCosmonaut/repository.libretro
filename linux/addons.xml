@@ -304,7 +304,7 @@ Source: https://github.com/libretro/Genesis-Plus-GX</description>
 
 <addon id="gameclient.mednafen.psx"
         name="Mednafen PSX"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -320,8 +320,11 @@ Source: https://github.com/libretro/Genesis-Plus-GX</description>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Mednafen PSX</summary>
-        <description>Mednafen is a portable multi-system emulator. This is port of the Mednafen PSX core to the libretro API.[CR][CR]PlayStation 1 emulation is currently in a buggy alpha state and not all hardware and features are emulated. A dual-core Phenom II or Athlon II at 3GHz or higher, or rough equivalent, is recommended for running Mednafen's PlayStation 1 emulation. PSF1 playback is supported.[CR][CR]Source: https://github.com/libretro/mednafen-libretro</description>
-        <noicon>true</noicon>
+        <description>Mednafen is a portable multi-system emulator. This is port of the Mednafen PSX core to the libretro API. PlayStation 1 emulation is currently in a buggy alpha state and not all hardware and features are emulated. A dual-core Phenom II or Athlon II at 3GHz or higher, or rough equivalent, is recommended for running Mednafen's PlayStation 1 emulation. PSF1 playback is supported.
+
+Supported files: .cue, .toc
+
+Source: https://github.com/libretro/mednafen-libretro</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
