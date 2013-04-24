@@ -640,6 +640,35 @@ Source: https://github.com/snes9xgit/snes9x</description>
     </extension>
 </addon>
 
+<addon id="gameclient.tyrquake.x86"
+        name="Tyr-Quake (32-bit)"
+        version="0.62.0"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+            library_android=""
+            library_linux="libretro-tyrquake.so"
+            library_osx=""
+            library_windx=""
+            library_wingl="">
+        <platforms></platforms>
+        <extensions>pak|zip</extensions>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Tyr-Quake</summary>
+        <description>Tyr-Quake is a branch of the Quake source code released by id. It's intended to support Quake and Quakeworld. Instead of changing the look or feel of the game by adding lots of rendering enhancements, it aims to just fix little bugs that have come up over the years.
+
+Supported files: .pak, .zip
+
+Source: https://github.com/libretro/tyrquake</description>
+        <noicon>true</noicon>
+        <nofanart>true</nofanart>
+        <platform>linux</platform>
+    </extension>
+</addon>
+
 <addon id="gameclient.vba-next.x86"
         name="VBA-Next (32-bit)"
         version="1.0.1"
