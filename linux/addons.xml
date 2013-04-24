@@ -219,7 +219,7 @@ Source: https://github.com/libretro/fba-libretro</description>
 
 <addon id="gameclient.gambatte"
         name="Gambatte"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -235,7 +235,11 @@ Source: https://github.com/libretro/fba-libretro</description>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Gambatte</summary>
-        <description>Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++. It is based on hundreds of corner case hardware tests, as well as previous documentation and reverse engineering efforts.[CR][CR]Source: https://github.com/libretro/gambatte-libretro</description>
+        <description>Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++. It is based on hundreds of corner case hardware tests, as well as previous documentation and reverse engineering efforts.
+
+Supported files: .gb, .gbc, .dmg, .zip
+
+Source: https://github.com/libretro/gambatte-libretro</description>
         <disclaimer>Game Boy and Game Boy Color are registered trademarks of Nintendo of America, Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.</disclaimer>
         <noicon>true</noicon>
         <nofanart>true</nofanart>
