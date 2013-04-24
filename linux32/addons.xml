@@ -407,7 +407,7 @@ Source: https://github.com/libretro/mame078-libretro</description>
 
 <addon id="gameclient.nestopia.x86"
         name="Nestopia (32-bit)"
-        version="1.0.1"
+        version="1.44.0"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -423,8 +423,11 @@ Source: https://github.com/libretro/mame078-libretro</description>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Nestopia</summary>
-        <description>Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals. The hardware is emulated at cycle-by-cycle granularity, ensuring full support for software that does mid-scanline and other timing trickery.[CR][CR]Nestopia Undead is a fork of the original source code, plus R. Belmont's Linux port overlay, all included in one convenient source tree with enhancements.[CR][CR]Source: https://github.com/libretro/nestopia</description>
-        <noicon>true</noicon>
+        <description>Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals. The hardware is emulated at cycle-by-cycle granularity, ensuring full support for software that does mid-scanline and other timing trickery.
+
+Supported files: .nes, .fds, .zip
+
+Source: https://github.com/libretro/nestopia</description>
         <nofanart>true</nofanart>
         <platform>linux</platform>
     </extension>
