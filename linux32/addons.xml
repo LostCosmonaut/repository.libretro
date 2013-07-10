@@ -2,7 +2,7 @@
 <addons>
 <addon id="gameclient.bnes.x86"
         name="bNES (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -18,7 +18,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">bNES</summary>
-        <description>libretro port of bNES, a NES emulator.[CR][CR]Authors: byuu, Ryphecha.[CR][CR]Source: https://github.com/libretro/bnes-libretro</description>
+        <description>libretro port of bNES, a NES emulator.
+
+Authors: byuu, Ryphecha.
+
+Source: https://github.com/libretro/bnes-libretro</description>
         <platform>linux</platform>
         <noicon>true</noicon>
         <nofanart>true</nofanart>
@@ -28,7 +32,7 @@
 
 <addon id="gameclient.bsnes.accuracy.x86"
         name="bSNES (Accuracy) (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -56,7 +60,7 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.bsnes.balanced.x86"
         name="bSNES (Balanced) (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -84,7 +88,7 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.bsnes.performance.x86"
         name="bSNES (Performance) (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -112,7 +116,7 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.desmume.x86"
         name="DeSmuME (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -165,7 +169,7 @@ Source: https://github.com/libretro/dosbox-libretro</description>
 
 <addon id="gameclient.fba.x86"
         name="Final Burn Alpha (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -194,7 +198,7 @@ Source: https://github.com/libretro/fba-libretro</description>
 
 <addon id="gameclient.fceu-next.x86"
         name="FCEU-Next (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -222,7 +226,7 @@ Source: https://github.com/libretro/fceu-next</description>
 
 <addon id="gameclient.gambatte.x86"
         name="Gambatte (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -251,7 +255,7 @@ Source: https://github.com/libretro/gambatte-libretro</description>
 
 <addon id="gameclient.genplus.x86"
         name="Genesis Plus GX (32-bit)"
-        version="1.7.3"
+        version="1.7.4"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -307,7 +311,7 @@ Source: https://github.com/libretro/mame078-libretro</description>
 
 <addon id="gameclient.mednafen.pce.fast.x86"
         name="Mednafen PC Engine (Fast) (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -336,7 +340,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 
 <addon id="gameclient.mednafen.psx.x86"
         name="Mednafen PSX (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -364,7 +368,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 
 <addon id="gameclient.mednafen.wswan.x86"
         name="Mednafen WonderSwan (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -392,7 +396,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 
 <addon id="gameclient.meteor.x86"
         name="Meteor (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -417,7 +421,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 
 <addon id="gameclient.nestopia.x86"
         name="Nestopia (32-bit)"
-        version="1.44.0"
+        version="1.44.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -445,7 +449,7 @@ Source: https://github.com/libretro/nestopia</description>
 
 <addon id="gameclient.nx.x86"
         name="NXEngine (32-bit)"
-        version="1.0.1"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -501,7 +505,7 @@ Source: https://github.com/libretro/pcsx_rearmed</description>
 
 <addon id="gameclient.prboom.x86"
         name="PrBoom (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -526,7 +530,7 @@ Source: https://github.com/libretro/pcsx_rearmed</description>
 
 <addon id="gameclient.quicknes.x86"
         name="QuickNES (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -579,7 +583,7 @@ Source: https://github.com/libretro/scummvm</description>
 
 <addon id="gameclient.snes9x-next.x86"
         name="Snes9x-Next (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -607,7 +611,7 @@ Source: https://github.com/libretro/snes9x-next</description>
 
 <addon id="gameclient.snes9x.x86"
         name="Snes9x (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -636,7 +640,7 @@ Source: https://github.com/snes9xgit/snes9x</description>
 
 <addon id="gameclient.stella.x86"
         name="Stella (32-bit)"
-        version="1.0.1"
+        version="1.0.2"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
@@ -690,7 +694,7 @@ Source: https://github.com/libretro/tyrquake</description>
 
 <addon id="gameclient.vba-next.x86"
         name="VBA-Next (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>

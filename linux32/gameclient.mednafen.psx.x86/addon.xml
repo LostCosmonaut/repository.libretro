@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="gameclient.mednafen.psx.x86"
         name="Mednafen PSX (32-bit)"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>
